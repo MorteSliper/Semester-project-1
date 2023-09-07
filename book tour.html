@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1bcac029f5.js" crossorigin="anonymous"></script>
     <link href="styles.css" rel="stylesheet">
-    <title>About</title>
+    <title>Book tour</title>
 </head>
 <body>
     <header>
@@ -26,27 +26,41 @@
             <a href="about.html">About</a>
         </nav>
     </header>
-<main>
-    <h1 class="h1-placing">Book a tour</h1>
-    <form action="form-success.php" method="post">
-        <fieldset>
-            <legend>Contact us</legend>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" class="form__input" required> 
-            <label for="e-mail">E-mail</label>
-            <input type="email" name="email" aria-label="e-mail" id="e-mail" class="form__input" required>
+    <main>
+        <h1 class="h1-placing">Book a tour</h1>
+        <form action="form-success.php" method="post">
+            <fieldset>
+                <legend>Contact us</legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form__input" required> 
+                <label for="e-mail">E-mail</label>
+                <input type="email" name="email" aria-label="e-mail" id="e-mail" class="form__input" required>
 
-            <label for="group">Group size</label>
-            <select name="group" id="group" class="form__input" required>
-                <option value="0-10">0-10</option>
-                <option value="10-20">10-20</option>
-                <option value="20-30">20-30</option>
-                <option value="30-40">30-40</option>
-            </select>
-            <div></div>
-            <label for="message">Message</label>
-            <textarea name="message" id="message" class="form__input" style="height: 5em;" required></textarea>
-            <input class="btn" type="submit" value="Send">
-        </fieldset>
-    </form>
-</main>
+                <label for="group">Group size</label>
+                <select name="group" id="group" class="form__input" required>
+                    <option value="0-10">0-10</option>
+                    <option value="10-20">10-20</option>
+                    <option value="20-30">20-30</option>
+                    <option value="30-40">30-40</option>
+                </select>
+                <div></div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" class="form__input" style="height: 5em;" required></textarea>
+                <input class="btn" type="submit" value="Send">
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer-grid">
+        <p>Visit us at Bakklandet 4, 7016 Trondhiem</p>
+        <li>
+            <p>Opening-hours:</p>
+            <p>Weekdays: 10:00-16:00</p>
+            <p>Weekends: 10:00-17:00</p>
+            <p>Mondays: closed</p>
+        </li>
+        <a href="#" class="social" >
+            <i class="fa-brands fa-facebook fa-xl"></i>
+        </a>
+    </footer>
+</body>
+</html>

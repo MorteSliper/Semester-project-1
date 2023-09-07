@@ -15,8 +15,11 @@ body {
     background-repeat: no-repeat;
     background-position:top right;
     background-size: 50%;
-    padding-inline: 1rem;
     max-width: 1500px;
+}
+
+main >:not(.hero){
+    padding-inline: 1rem;
 }
 
 button,
@@ -69,7 +72,8 @@ li{
 
 
 .CTA{
-    background-color:rgba(1, 26, 250, 0.8);
+    background-color:rgba(1, 26, 250, 0.7);
+    color: white;
     display: flex;
     align-items: center;
     max-width: 200px;
@@ -77,13 +81,19 @@ li{
     font-size: 1.2rem;
     font-weight: 700;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 25px;
     border: none;
     outline: none;
     cursor: pointer;
     text-decoration: none;
-    box-shadow: 1px 1px 10px  black;
+    box-shadow: 1px 1px 10px  rgb(92, 92, 92);
 }
+
+.CTA:hover{
+    background-color:rgba(1, 26, 250, 0.5) ;
+    text-decoration: none;
+}
+
 @media (max-width: 1000px) {
     .CTA{
         font-size: 1rem;
@@ -104,7 +114,8 @@ li{
 
 @media (max-width: 700px){
     .CTA-mobile{
-        background-color:rgba(1, 26, 250, 0.8);
+        background-color:rgba(1, 26, 250, 0.7);
+        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -113,12 +124,12 @@ li{
         font-size: 1rem;
         font-weight: 700;
         padding: 10px 20px;
-        border-radius: 10px;
+        border-radius: 25px;
         border: none;
         outline: none;
         cursor: pointer;
         text-decoration: none;
-        box-shadow: 1px 1px 10px  black;
+        box-shadow: 1px 1px 10px  rgb(92, 92, 92);
         margin: auto;
     } 
 }
@@ -269,7 +280,7 @@ fieldset{
 }
 
 form{
-    background-color: wheat;
+    background-color: rgb(245, 222, 179);
     max-width: 500px;
     margin: auto;
     margin-top: 50px;
@@ -310,6 +321,7 @@ legend{
     color: white;
     font-weight: 300;
     margin-top: 4rem;
+    padding-inline: 1rem;
     
 }
 
