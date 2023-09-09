@@ -273,6 +273,30 @@ a:hover{
 
 }
 
+/*visit us*/
+
+.contact-info{
+    background-color: rgba(80, 178, 101, 1);
+    max-width: 260px;
+    max-height: 110px;
+    text-align: center;
+}
+
+@media(max-width: 1060px){
+    .contact-info{
+        margin: auto;
+        width: 260px;
+        grid-column: span 2;
+    }
+}
+
+@media(max-width: 700px){
+    .contact-info{
+        grid-column: initial;
+        
+    }
+}
+
 /*form*/
 
 fieldset{
@@ -330,10 +354,16 @@ legend{
         grid-template-columns: 1fr;
         gap: 1rem;
         font-size: 0.8rem;
+        padding: 1rem;
+        height: 218px;
+    }
+    .social{
+        padding-bottom: 10px;
     }
 }
 
 .social{
     color: white;
+    
 }
 
