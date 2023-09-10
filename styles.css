@@ -131,6 +131,7 @@ li{
         text-decoration: none;
         box-shadow: 1px 1px 10px  rgb(92, 92, 92);
         margin: auto;
+        margin-bottom: 1rem;
     } 
 }
 
