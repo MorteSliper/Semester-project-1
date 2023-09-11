@@ -16,6 +16,11 @@ body {
     background-position:top right;
     background-size: 50%;
     max-width: 1500px;
+    margin: auto;
+}
+
+main{
+    min-height: 100vh;
 }
 
 main >:not(.hero){
