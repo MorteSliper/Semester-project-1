@@ -99,7 +99,6 @@ li{
 .CTA{
     background-color:rgba(1, 26, 250, 0.7);
     color: white;
-    display: flex;
     align-items: center;
     max-width: 200px;
     max-height: 48px;
@@ -119,46 +118,14 @@ li{
     text-decoration: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 910px) {
     .CTA{
         font-size: 1rem;
+        box-shadow: none;
     }
     
 }
 
-@media (max-width: 700px) {
-    .CTA{
-        display: none;
-    }
-    
-}
-
-.CTA-mobile{
-    display: none;
-}
-
-@media (max-width: 700px){
-    .CTA-mobile{
-        background-color:rgba(1, 26, 250, 0.7);
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 150px;
-        max-height: 40px;
-        font-size: 1rem;
-        font-weight: 700;
-        padding: 10px 20px;
-        border-radius: 25px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        text-decoration: none;
-        box-shadow: 1px 1px 10px  rgb(92, 92, 92);
-        margin: auto;
-        margin-bottom: 1rem;
-    } 
-}
 
 nav, 
 #menu-checkbox {
@@ -188,7 +155,7 @@ nav{
     background-color: rgba(223, 223, 223, 1);
     top: 60px;
     right: 20px;
-    border-radius: 15px 0px 15px 15px;
+    border-radius: 25px 25px 15px 15px;
 }
 
 nav a{
