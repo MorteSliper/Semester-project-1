@@ -36,6 +36,11 @@ select {
     resize: none;
 }
 
+.line-brake{
+    display: block;
+    margin-top: 10px;
+}
+
 img{
     max-width: 100%;
 }
