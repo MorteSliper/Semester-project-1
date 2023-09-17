@@ -254,6 +254,15 @@ a:hover{
     gap: 2rem;  
 }
 
+@media(max-width: 700px){
+    .grid-2-colums{
+        grid-template-columns: 1fr;
+        max-width: 450px;
+        margin: auto;
+    }
+
+}
+
 .grid-text{
     padding-top: 4rem;
 }
