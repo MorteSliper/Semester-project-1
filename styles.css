@@ -199,8 +199,8 @@ header{
 nav{
     position: absolute;
     background-color: var(--bg-color);
-    top: 60px;
-    right: 20px;
+    top: 75px;
+    right: 10px;
     border-radius: 25px 25px 15px 15px;
 }
 
